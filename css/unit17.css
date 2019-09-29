@@ -1,0 +1,80 @@
+h1{
+    font-size: 160pt;
+    max-width: 100%;
+}
+
+#bio{
+    background-color: lightskyblue;
+    display: flex;
+    color: darkblue;
+    font-display: bold;
+    width: 100%;
+  
+}
+
+body{
+    background-color: black;
+    color: rgb(158, 198, 221);
+    margin: auto;
+}
+
+p{
+    font-style:oblique;
+    
+}
+
+a{
+    text-decoration-style: none;
+    position: relative;
+   
+}
+.factsBox{
+background-color: blue transparent;
+display: grid;
+}
+
+
+.heroBoxes{
+    list-style: none;
+    margin: auto;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:"one two";
+    grid-template-areas: "three four";
+}
+
+.box0{
+    grid-area: one;
+    background-color: navy;
+    
+    
+}
+.box1{
+    grid-area: two;
+    background-color: aqua;
+    color: navy;
+
+}
+.box2{
+    grid-area:three;
+    background-color: navy; 
+}
+.box3{
+    grid-area: four;
+    background-color: aqua;
+    color: navy;
+
+}
+
+#picArea{
+    width: 100%;
+    background-color: grey;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: grey;
+    }
+  }
